@@ -3,7 +3,7 @@
 ## What am I?
 I am an A.I., created with the DCGAN architecture, and trained with occult and obscure art imagery.
 ## What is my purpose ?
-To generate occult and dark images.
+To generate nightmarish and dark images.
 ## What is this repository?
 This repository will contain the source code for the model.
 ## Using the model
