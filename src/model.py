@@ -7,8 +7,11 @@ import matplotlib.pyplot as plt
 import os 
 from random_word import RandomWords
 import random
-DATADIR = "random_generated_images/"
-MODELSDIR = "model_parameters/"
+BASEDIR = os.getcwd() + "/"
+DATADIR = BASEDIR + "random_generated_images/"
+MODELSDIR = BASEDIR + "model_parameters/"
+os.makedirs(DATADIR,exist_ok=True)
+os.makedirs(MODELSDIR,exist_ok=True)
 stats = (0.5, 0.5, 0.5), (0.5, 0.5, 0.5)
 
 def get_default_device():
