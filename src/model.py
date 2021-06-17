@@ -8,7 +8,7 @@ import os
 from random_word import RandomWords
 import random
 DATADIR = "random_generated_images/"
-MODELSDIR = "git/GEHENNUM/src/model_parameters/"
+MODELSDIR = "model_parameters/"
 stats = (0.5, 0.5, 0.5), (0.5, 0.5, 0.5)
 
 def get_default_device():
